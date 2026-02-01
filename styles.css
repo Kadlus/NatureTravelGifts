@@ -9,7 +9,7 @@
 
 body {
     margin: auto;
-    max-width: 1440px;
+    max-width: 1200px;
 }
 
 .introduction {
@@ -97,4 +97,201 @@ body {
     border-radius: 14px;
     padding: 12px 32px;
     font-size: 16px;
+}
+
+.travel-with-us-section {
+    background-color: var(--Gray);
+    padding: 96px 0 192px 0;
+}
+
+.travel-with-us-top {
+    width: 50%;
+    margin: auto;
+    background-color: var(--White);
+    text-align: left;
+    border-radius: 24px;
+    padding: 40px;
+    display: flex;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.25);
+}
+
+.travel-with-us-top p {
+    font-size: 18px;
+    line-height: 1.75;
+}
+
+.travel-with-us-box {
+    width: 60%;
+}
+
+.travel-with-us-box h2 {
+    font-size: 48px;
+    color: var(--Black);
+    margin: 0;
+}
+
+
+.travel-with-us-circles {
+    width: 40%;
+    position: relative;
+}
+
+.cottage-circle {
+    width: 400px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: -200px;
+    top: 0;
+}
+
+.travel-with-us-circles img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    top: 150px;
+}
+
+.red-circle {
+    width: 150px;
+    height: 150px;
+    background-color: var(--Red);
+    border-radius: 50%;
+    position: relative;
+    bottom: -300px;
+    left: 50px;
+}
+
+.articles {
+    background-image: url("./images/forest-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-position: center;
+    position: relative;
+    padding: 128px 0;
+    display: flex;
+}
+
+.transparent-circle {
+    width: 400px;
+    height: 400px;
+    background: var(--Gray);
+    opacity: 0.2;
+    border-radius: 50%;
+    position: absolute;
+    left: 178px;
+    top: 200px;
+}
+
+.services-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+
+.service-card {
+    width: 200px;
+    height: 100px;
+    padding: 16px;
+    border-radius: 16px;
+    background-color: var(--White);
+}
+
+.service-card h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.fa {
+    font-size: 32px;
+    padding: 16px;
+    border-radius: 50%;
+    background-color: var(--Gray);
+}
+
+.row {
+    display: flex;
+    position: relative;
+}
+
+.red-rectangle {
+    width: 50%;
+    height: 500px;
+    background-color: var(--Red);
+}
+
+.mountains-circle {
+    width: 480px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 25%;
+    bottom: -20%;
+    z-index: 2;
+}
+
+.gray-rectangle {
+    width: 50%;
+    height: 350px;
+    background-color: var(--Gray);
+    position: relative;
+    bottom: -200px;
+}
+
+.do-something-row {
+    display: flex;
+    position: relative;
+    gap: 42px;
+}
+
+.left-side {
+    position: relative;
+    bottom: -200px;
+    left: 0;
+    width: 50%;
+    padding: 42px;
+}
+
+.left-side p {
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1.7;
+    font-size: 18px;
+    opacity: 0.8;
+}
+
+.right-side {
+    width: 50%;
+}
+
+.do-something-box {
+    width: 25%;
+    background-color: var(--DarkGreen);
+    text-align: center;
+    padding: 48px 24px;
+    border-radius: 24px;
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.25);
+    position: absolute;
+    z-index: 2;
+    top: -150px;
+}
+
+.do-something-box h2 {
+    color: var(--White);
+}
+
+.do-something-box p {
+    color: var(--Gray);
+    line-height: 1.7;
+}
+
+.travel-with-us-bot {
+    background-color: var(--DarkGreen);
 }
