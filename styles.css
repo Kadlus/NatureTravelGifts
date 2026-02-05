@@ -192,7 +192,7 @@ a {
     background-image: url("./images/forest-bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
     background-position: center;
     position: relative;
     padding: 128px 0;
@@ -200,14 +200,15 @@ a {
 }
 
 .transparent-circle {
-    width: 400px;
-    height: 400px;
-    background: var(--Gray);
-    opacity: 0.2;
+    width: 450px;
+    height: 450px;
+    background: var(--DarkBrown);
+    opacity: 0.3;
     border-radius: 50%;
     position: absolute;
-    left: 178px;
-    top: 200px;
+    left: 10%;
+    bottom: 20%;
+    z-index: 0;
 }
 
 .services-cards {
@@ -221,10 +222,11 @@ a {
 
 .service-card {
     width: 200px;
-    height: 100px;
     padding: 16px;
     border-radius: 16px;
     background-color: var(--White);
+    position: relative;
+    z-index: 1;
 }
 
 .service-card h3 {
@@ -377,7 +379,7 @@ a {
 }
 
 .travel-with-us-bot-box {
-    width: 25%;
+    width: 35%;
     background-color: var(--White);
     text-align: center;
     padding: 24px;
